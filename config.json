@@ -1,0 +1,102 @@
+{
+    "twitter": {
+        "consumer_key": "twitter-consumer-key",
+        "consumer_secret": "twitter-consumer-secret",
+        "access_token_key": "twitter-token",
+        "access_token_secret": "twitter-token-secret",
+        "twitter_handle": "your-twitter-name",
+        "prepend_tweet_with": ""
+    },
+    "generator": {
+        "model": "345M",
+        "top_k": 10,
+        "forbidden": ["\"", "(", ")", "[", "]", "<|endoftext|>", "\n"]
+    },
+    "structures": [
+        {
+            "input": "When in the chronicle of wasted time\nI see descriptions of the fairest wights,\nAnd beauty making beautiful old rhyme\nIn praise of ladies dead, and lovely knights\n\n",
+            "verses": [
+                {
+                    "rime_with": "A",
+                    "syllables": 10,
+                    "end_with": ":"
+                },
+                {
+                    "rime_with": "B",
+                    "syllables": 10,
+                    "end_with": ","
+                },
+                {
+                    "rime_with": "B",
+                    "syllables": 10,
+                    "end_with": ","
+                },
+                {
+                    "rime_with": "A",
+                    "syllables": 10,
+                    "end_with": "."
+                },
+                {
+                    "separator": true
+                },
+                {
+                    "rime_with": "A",
+                    "syllables": 10,
+                    "end_with": ":"
+                },
+                {
+                    "rime_with": "B",
+                    "syllables": 10,
+                    "end_with": ","
+                },
+                {
+                    "rime_with": "B",
+                    "syllables": 10,
+                    "end_with": ","
+                },
+                {
+                    "rime_with": "A",
+                    "syllables": 10,
+                    "end_with": "."
+                },
+                {
+                    "separator": true
+                },
+                {
+                    "rime_with": "C",
+                    "syllables": 10,
+                    "end_with": ","
+                },
+                {
+                    "rime_with": "D",
+                    "syllables": 10
+                },
+                {
+                    "rime_with": "E",
+                    "syllables": 10,
+                    "end_with": "."
+                },
+                {
+                    "separator": true
+                },
+                {
+                    "rime_with": "E",
+                    "syllables": 10,
+                    "end_with": ","
+                },
+                {
+                    "rime_with": "D",
+                    "syllables": 10
+                },
+                {
+                    "rime_with": "C",
+                    "syllables": 10,
+                    "end_with": "."
+                },
+                {
+                    "separator": true
+                }
+            ]
+        }
+    ]
+}
