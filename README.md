@@ -35,7 +35,7 @@ pip install tweepy
 pip install keras_gpt_2
 ```
 
-Now, don't do it now because you'll need to change the config first but please note that in order to run this whole thing the first thing you need to do is to run the **download_models** file which will download the GPT-2 model from their repository, but it is based on your config file so let's change the config first
+Now (don't do it exactly now because you'll need to change the config first) please note that in order to run this whole thing the first thing you need to do is to run the **download_models** file which will download the GPT-2 model from their repository, but it is based on your config file... so let's change the config first
 
 The **Config file** is in json. It is in json because of reasons (hopefully there will be a GUI to play with it, at some point, maybe, maybe not. Most probably not) so you have to live with it.
 It is splitted in 3 nodes:
