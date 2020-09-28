@@ -1,3 +1,10 @@
+# Ok this file is just a copy of the GPT2 one
+# which downloads the model from their repository.
+# I just changed it to download automatically the model found in the config file
+# This code is part of their repository at https://github.com/openai/gpt-2/
+# licensed with Modified MIT License - Software Copyright (c) 2019 OpenAI
+
+
 import os
 import sys
 import requests
